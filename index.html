@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rabia Imran | Developer Portfolio</title>
+    <!--CSS Styles -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Rabia's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skills</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-----------------home------------------------------------------>
+      <section class="firstSection" id="home">
+        <div class="leftSection">
+          Hi, My name is <span class="purple">Rabia</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn">
+              <a href="CVRabia.pdf" download>Download Resume</a>
+            </button>
+            <button class="btn">
+              <a href="https://github.com/RabiaImran">Visit Github</a>
+            </button>
+          </div>
+        </div>
+        <div class="rightSection">
+          <img src="a.png" alt="" />
+        </div>
+      </section>
+      <!------------------about-------------------------------->
+      <section class="secondSection" id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1"><img src="images/b.jpg" /></div>
+            <div class="about-col-2">
+              <h1 class="sub-title">About Me</h1>
+              <p>
+                Hello! I'm Rabia Imran. Junior web developer with over 2 years
+                of experience specializing in frontend development. Having on
+                in-depth knowledge including HTMLS5, CSS, CSS3, Bootstrap, XML,
+                JavaScript, Java, and Reactjs<br />Strong background in
+                management and leadership.
+              </p>
+
+              <div class="tab-titles">
+                <div class="tab-links active-link" onclick="opentab('skills')">
+                  Skills
+                </div>
+                <div class="tab-links" onclick="opentab('education')">
+                  Education
+                </div>
+                <div class="tab-links" onclick="opentab('experience')">
+                  Experience
+                </div>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li>
+                    <span>Designing web/App interfaces</span><br />Graphic
+                    Designing
+                  </li>
+                  <li>
+                    <span> Web Development</span><br />Designing web/App
+                    interfaces
+                  </li>
+
+                  <li>
+                    <span>Java Developer</span><br />Build Management system
+                  </li>
+                  <li>
+                    <span>App Development</span><br />Building Android Apps
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>2019 - 2022</span><br />bachelor's degree in software
+                    engineering
+                  </li>
+                  <li>
+                    <span>2016 - 2018</span><br />H.S.C. - Computer Science
+                  </li>
+                  <li>
+                    <span>2014 - 2016</span><br />S.S.C. - Computer Science
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li>
+                    <span>04/2021 - 09/2021 </span><br />Freelancer at
+                    Brownbag.pk
+                  </li>
+                  <li>
+                    <span> 05/2021 - 06/2021</span><br />Internship at Interns
+                    Pakistan
+                  </li>
+                  <li>
+                    <span>06/2021 - 07/2021</span><br />Internship at Grip With
+                    the Spark Foundation
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------------skills-------------------------------------------->
+      <section class="thirdSection" id="skill">
+        <div class="container">
+          <h1 class="sub-title">My Top Skills</h1>
+
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img
+                src="images/html.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="images/css.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="images/js.jpeg"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+            </div>
+            <div class="second-set animate__animated animate__pulse">
+              <img
+                src="images/bootstrap.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="images/java.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <img
+                src="images/react.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!------------------portfolio----------------->
+      <section id="portfolio">
+        <div class="container">
+          <div class="sub-title">My Work</div>
+          <div class="work-list">
+            <div class="work">
+              <img src="images/train.jpg" />
+              <div class="layer">
+                <h3>Reservation Management System</h3>
+                <p>
+                  The train ticket booking system is a Java project which
+                  maintains the ticket booking and other heavy works of a train
+                  station. This system is very much easy and is user-friendly.
+                  Anyone can use this system without any difficulty. As back-end
+                  support MySQL database is used and NetBeans IDE for its user
+                  interface design.
+                </p>
+                <a
+                  href="https://drive.google.com/drive/folders/1FCVIJJiFCyLvwyZmWYZo67tU_yNM6LzA"
+                  target="_blank"
+                  class="project-link"
+                  ><i class="fa-solid fa-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/Capsulekiller.png" />
+              <div class="layer">
+                <h3>3D Capsule killer</h3>
+                <p>
+                  Capsule Killer is a first-person shooter developed in Unity
+                  using C#. The capsules move towards the player, doing damage
+                  upon collision. The player has the ability to move around
+                  using the WASD keys, jump using the space bar, and shoot using
+                  the left mouse button.
+                </p>
+                <a
+                  href="https://drive.google.com/drive/folders/1_mGXQqjW5L5xcIR10_cjTNuAPCYW_Oal"
+                  ><i class="fa-solid fa-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/textchanger.png" />
+              <div class="layer">
+                <h3>TextChanger</h3>
+                <p>
+                  Convert Text to Upper or Lower Case in ReactJS. Given an input
+                  textarea and the task is to transform the lowercase characters
+                  into uppercase characters while taking input from user. It can
+                  be done using React.
+                </p>
+                <a href="https://github.com/RabiaImran/TextChanger"
+                  ><i class="fa-solid fa-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="button">See more</a>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="contact-left">
+              <h1 class="sub-title">Contact Me</h1>
+              <p><i class="fa-solid fa-paper-plane"></i>irabia632@gmail.com</p>
+              <p><i class="fa-solid fa-square-phone"></i>+923172642636</p>
+              <div class="social-icons">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="contact-right">
+              <form>
+                <input
+                  type="text"
+                  name="Name"
+                  placeholder="Your Name"
+                  required
+                />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+                <textarea
+                  name="Message"
+                  rows="6"
+                  placeholder="Your Message"
+                ></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="footer">
+        <p class="copy">&copy; Copyright 2023</p>
+        <p class="copy">
+          Built with &#x2661; by
+          <a href="#" target="_blank">Rabia Imran</a>
+        </p>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Frontend DevOp",
+          "Java Developer",
+          "React js",
+          "Mobile development",
+          "Documentation",
+          "Graphic Designer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
